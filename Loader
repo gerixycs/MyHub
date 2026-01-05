@@ -1,0 +1,9 @@
+if not game:IsLoaded() then game.Loaded:Wait() end
+
+local place_id = game.PlaceId
+
+if place_id == 75992362647444 then 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FELHASZNALONEVED/REPO/main/cobalt.lua"))()
+else
+    warn("No cheat for this game!")
+end
