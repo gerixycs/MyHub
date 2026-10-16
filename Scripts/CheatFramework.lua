@@ -1,7 +1,3 @@
---// Shared Framework
---// Load this file as a module from your raw GitHub URL.
---// The main script receives a Framework table from this chunk.
-
 local Environment = getgenv()
 
 --// Internal state
