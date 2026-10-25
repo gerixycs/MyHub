@@ -1,4 +1,6 @@
-local function PrintTable(table: {[any]: any}, indent: number?, seen: {[any]: boolean}?)
+local Framework = {}
+
+function Framework.PrintTable(table: {[any]: any}, indent: number?, seen: {[any]: boolean}?)
 	indent = indent or 0
 	seen = seen or {}
 
@@ -21,3 +23,5 @@ local function PrintTable(table: {[any]: any}, indent: number?, seen: {[any]: bo
 		end
 	end
 end
+
+return Framework
